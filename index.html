@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancer Awareness & Support</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="awareness.jpg" alt="Cancer Awareness Banner">
+        <div class="hero-text">
+            <h1>Cancer Awareness & Support</h1>
+            <p>Together, we fight. Together, we hope.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Real-Time Quotes Section -->
+    <section class="quotes">
+        <h2>Daily Motivation</h2>
+        <p id="quote">Loading quote...</p>
+        <button onclick="loadQuote()">New Quote</button>
+    </section>
+
+    <script>
+        async function loadQuote() {
+            try {
+                const res = await fetch("https://ron-swanson-quotes.herokuapp.com/v2/quotes");
+                const data = await res.json();
+                document.getElementById("quote").innerText = data.content;
+            } catch (error) {
+                document.getElementById("quote").innerText = "Unable to load quote.";
+            }
+        }
+
+        // Load quote on page load
+        loadQuote();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: black;
+}
+
+/* CONTACT FORM */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 12px;
+    border: none;
+    background: #ff4f6a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* QUOTES SECTION */
+.quotes {
+    padding: 40px 20px;
+    text-align: center;
+    background: #fff7f9;
+}
+
+.quotes h2 {
+    margin-bottom: 15px;
+}
+
+.quotes button {
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: #ff4f6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height:730px;
+    object-fit: cover;
+    filter: brightness(90%);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+}
+
+/* CONTACT FORM */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 12px;
+    border: none;
+    background: #ff4f6a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* QUOTES SECTION */
+.quotes {
+    padding: 40px 20px;
+    text-align: center;
+    background: #fff7f9;
+}
+
+.quotes h2 {
+    margin-bottom: 15px;
+}
+
+.quotes button {
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: #ff4f6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
